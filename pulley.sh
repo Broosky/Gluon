@@ -23,6 +23,7 @@ IFS=$'\n\t'
 # Prints status messages throughout.
 #############################################################################################################################
 declare -A repo_urls=(
+    ["Gluon"]="https://github.com/Broosky/Gluon.git"
     ["Gatherers-Legacy"]="https://github.com/Broosky/Gatherers-Legacy.git"
     ["Gatherers"]="https://github.com/Broosky/Gatherers.git"
     ["Patchworks"]="https://github.com/Broosky/Patchworks.git"
