@@ -3,9 +3,9 @@ set -euo pipefail
 IFS=$'\n\t'
 
 #############################################################################################################################
-# Script Name: pulley.sh                                                                                                   #
-# Author: Jeffrey Bednar                                                                                                   #
-# Copyright (c) Illusion Interactive, 2011 - 2025.                                                                         #
+# Script Name: pulley.sh                                                                                                    #
+# Author: Jeffrey Bednar                                                                                                    #
+# Copyright (c) Illusion Interactive, 2011 - 2025.                                                                          #
 #############################################################################################################################
 # Date: Saturday, July 26th, 2025
 # Description: Pulls latest changes from the remote main branch for all provided repo urls.
