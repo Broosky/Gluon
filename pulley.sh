@@ -36,6 +36,7 @@ declare -A repo_urls=(
 	["Soney"]="https://github.com/Broosky/Soney.git"
     ["Softy"]="https://github.com/Broosky/Softy.git"
     ["Snubby"]="https://github.com/Broosky/Snubby.git"
+    ["Fibby"]="https://github.com/Broosky/Fibby.git"
 )
 #############################################################################################################################
 get_script_dir() {
