@@ -3,9 +3,16 @@ set -euo pipefail
 IFS=$'\n\t'
 
 #############################################################################################################################
-# Script Name: pulley.sh                                                                                                    #
+# Project: Gluon                                                                                                            #
 # Author: Jeffrey Bednar                                                                                                    #
-# Copyright (c) Illusion Interactive, 2011 - 2025.                                                                          #
+# Copyright (c) Illusion Interactive, 2011 - 2026.                                                                          #
+#############################################################################################################################
+# Educational Use Notice:                                                                                                   #
+#############################################################################################################################
+# This project is provided for educational and learning purposes only. You are welcome to read, study, and experiment       #
+# with this software and/or hardware. It is not intended for commercial use. This software and/or hardware is provided      #
+# "as is", without warranty of any kind. The author assumes no responsibility for any damages or issues resulting from      #
+# its use.                     																						        #
 #############################################################################################################################
 # Date: Saturday, July 26th, 2025
 # Description: Pulls latest changes from the remote main branch for all provided repo urls.
@@ -37,6 +44,9 @@ declare -A repo_urls=(
     ["Softy"]="https://github.com/Broosky/Softy.git"
     ["Snubby"]="https://github.com/Broosky/Snubby.git"
     ["Fibby"]="https://github.com/Broosky/Fibby.git"
+    ["Mixxy"]="https://github.com/Broosky/Mixxy.git"
+    ["Sunny"]="https://github.com/Broosky/Sunny.git"
+    ["Pulse"]="https://github.com/Broosky/Pulse.git"
 )
 #############################################################################################################################
 get_script_dir() {
