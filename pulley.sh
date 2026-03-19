@@ -48,6 +48,7 @@ declare -A repo_urls=(
     ["Sunny"]="https://github.com/Broosky/Sunny.git"
     ["Pulse"]="https://github.com/Broosky/Pulse.git"
     ["Gusto"]="https://github.com/Broosky/Gusto.git"
+    ["Blaze"]="https://github.com/Broosky/Blaze.git"
 )
 #############################################################################################################################
 get_script_dir() {
