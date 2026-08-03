@@ -56,6 +56,7 @@ declare -A repo_urls=(
     ["Pixy"]="https://github.com/Broosky/Pixy.git"
     ["Protofy"]="https://github.com/Broosky/Protofy.git"
     ["Sonic"]="https://github.com/Broosky/Sonic.git"
+    ["Juggerwatt"]="https://github.com/Broosky/Juggerwatt.git"
 )
 #############################################################################################################################
 get_script_dir() {
